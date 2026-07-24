@@ -25,9 +25,9 @@ def munmun():
         else :
             if ranNum == 1 and result[0] == 0:
                 cnt += 1
-                print("="*10)
+                print("="*20)
                 print(qlist[ranNum-1])
-                print("="*10)
+                print("="*20)
                 answer = input()
                 if answer.strip().lower() == alist[0]:
                     print("정답!")
@@ -40,9 +40,9 @@ def munmun():
                     result[0] += 2
             elif ranNum == 2 and result[1] == 0:
                 cnt += 1
-                print("="*10)
+                print("="*20)
                 print(qlist[ranNum-1])
-                print("="*10)
+                print("="*20)
                 answer = input()
                 if answer.strip().lower() == alist[1]:
                     print("정답!")
@@ -55,9 +55,9 @@ def munmun():
                     result[1] += 2
             elif ranNum == 3 and result[2] == 0:
                 cnt += 1
-                print("="*10)
+                print("="*20)
                 print(qlist[ranNum-1])
-                print("="*10)
+                print("="*20)
                 answer = input()
                 if answer.strip().lower() == alist[2]:
                     print("정답!")
@@ -70,9 +70,9 @@ def munmun():
                     result[2] += 2
             elif ranNum == 4 and result[3] == 0:
                 cnt += 1
-                print("="*10)
+                print("="*20)
                 print(qlist[ranNum-1])
-                print("="*10)
+                print("="*20)
                 answer = input()
                 if answer.strip().lower() == alist[3]:
                     print("정답!")
@@ -85,9 +85,9 @@ def munmun():
                     result[3] += 2
             elif ranNum == 5 and result[4] == 0:
                 cnt += 1
-                print("="*10)
+                print("="*20)
                 print(qlist[ranNum-1])
-                print("="*10)
+                print("="*20)
                 answer = input()
                 if answer.strip().lower() == alist[4]:
                     print("정답!")
